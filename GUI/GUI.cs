@@ -17,7 +17,7 @@ namespace GUI
             initImage = pictureBox.Image;
         }
 
-        //clears Bitmap
+        /// Clears bitmap.
         private void clear(Bitmap image)
         {
             for (int i = 0; i < pictureBox.Size.Height; i++)
@@ -25,15 +25,7 @@ namespace GUI
                     image.SetPixel(i, j, Color.White);
         }
 
-        //draws graph using input data
-        private void drawGraph(Bitmap image)
-        {
-            pictureBox.CreateGraphics();
-            pictureBox.Image = image;
-            pictureBox.Refresh();
-        }
-
-        //tries to convert value into float
+        /// Tries to convert value into float.
         private float tryToConvert(String value)
         {
             try
@@ -48,6 +40,7 @@ namespace GUI
             }
         }
 
+        /// Draws graph using input data.
         private void draw()
         {
             float x0 = pictureBox.Size.Height / 2;
@@ -81,7 +74,7 @@ namespace GUI
                 clear(image);
                 Graphics graph = Graphics.FromImage(image);
 
-                //draws axes
+                // draws axes
                 float t = 0;
                 graph.DrawLine(Pens.Black, x0, 0.0f, x0, pictureBox.Size.Height);
                 graph.DrawLine(Pens.Black, 0.0f, y0, pictureBox.Size.Width, y0);
@@ -95,7 +88,7 @@ namespace GUI
                     t += scale;
                 }
 
-                //draws graph
+                // draws graph
                 graph.DrawLine(Pens.Red, x[0], y[0], x[1], y[1]);
                 graph.DrawLine(Pens.Red, x[1], y[1], x[2], y[2]);
                 graph.DrawLine(Pens.Red, x[2], y[2], x[3], y[3]);
@@ -105,8 +98,11 @@ namespace GUI
                 graph.DrawEllipse(Pens.Red, x[2] - 2.0f, y[2] - 2.0f, 4.0f, 4.0f);
                 graph.DrawEllipse(Pens.Red, x[3] - 2.0f, y[3] - 2.0f, 4.0f, 4.0f);
 
-                drawGraph(image);
+                pictureBox.CreateGraphics();
+                pictureBox.Image = image;
+                pictureBox.Refresh();
 
+                // refreshes result
                 Library lib = new Library();
                 resultTextBox.Text = lib.result(x, y);
             }

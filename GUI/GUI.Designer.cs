@@ -29,293 +29,293 @@ namespace GUI
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUI));
-            this.inputGroupBox = new System.Windows.Forms.GroupBox();
-            this.pointDy = new System.Windows.Forms.TextBox();
-            this.pointDx = new System.Windows.Forms.TextBox();
-            this.pointCy = new System.Windows.Forms.TextBox();
-            this.pointCx = new System.Windows.Forms.TextBox();
-            this.pointBy = new System.Windows.Forms.TextBox();
-            this.pointBx = new System.Windows.Forms.TextBox();
-            this.pointAy = new System.Windows.Forms.TextBox();
-            this.pointAx = new System.Windows.Forms.TextBox();
-            this.labelD = new System.Windows.Forms.Label();
-            this.labelC = new System.Windows.Forms.Label();
-            this.labelB = new System.Windows.Forms.Label();
-            this.labelA = new System.Windows.Forms.Label();
-            this.pictureBox = new System.Windows.Forms.PictureBox();
-            this.clearButton = new System.Windows.Forms.Button();
-            this.startButton = new System.Windows.Forms.Button();
-            this.trackBar = new System.Windows.Forms.TrackBar();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.resultGroupBox = new System.Windows.Forms.GroupBox();
-            this.resultTextBox = new System.Windows.Forms.TextBox();
-            this.scaleGroupBox = new System.Windows.Forms.GroupBox();
-            this.inputGroupBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).BeginInit();
-            this.menuStrip.SuspendLayout();
-            this.resultGroupBox.SuspendLayout();
-            this.scaleGroupBox.SuspendLayout();
-            this.SuspendLayout();
+            inputGroupBox = new GroupBox();
+            pointDy = new TextBox();
+            pointDx = new TextBox();
+            pointCy = new TextBox();
+            pointCx = new TextBox();
+            pointBy = new TextBox();
+            pointBx = new TextBox();
+            pointAy = new TextBox();
+            pointAx = new TextBox();
+            labelD = new Label();
+            labelC = new Label();
+            labelB = new Label();
+            labelA = new Label();
+            pictureBox = new PictureBox();
+            clearButton = new Button();
+            startButton = new Button();
+            trackBar = new TrackBar();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            exitToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip = new MenuStrip();
+            resultGroupBox = new GroupBox();
+            resultTextBox = new TextBox();
+            scaleGroupBox = new GroupBox();
+            inputGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(trackBar)).BeginInit();
+            menuStrip.SuspendLayout();
+            resultGroupBox.SuspendLayout();
+            scaleGroupBox.SuspendLayout();
+            SuspendLayout();
             // 
             // inputGroupBox
             // 
-            this.inputGroupBox.Controls.Add(this.pointDy);
-            this.inputGroupBox.Controls.Add(this.pointDx);
-            this.inputGroupBox.Controls.Add(this.pointCy);
-            this.inputGroupBox.Controls.Add(this.pointCx);
-            this.inputGroupBox.Controls.Add(this.pointBy);
-            this.inputGroupBox.Controls.Add(this.pointBx);
-            this.inputGroupBox.Controls.Add(this.pointAy);
-            this.inputGroupBox.Controls.Add(this.pointAx);
-            this.inputGroupBox.Controls.Add(this.labelD);
-            this.inputGroupBox.Controls.Add(this.labelC);
-            this.inputGroupBox.Controls.Add(this.labelB);
-            this.inputGroupBox.Controls.Add(this.labelA);
-            this.inputGroupBox.Location = new System.Drawing.Point(453, 53);
-            this.inputGroupBox.Name = "inputGroupBox";
-            this.inputGroupBox.Size = new System.Drawing.Size(234, 231);
-            this.inputGroupBox.TabIndex = 0;
-            this.inputGroupBox.TabStop = false;
-            this.inputGroupBox.Text = "Input data";
+            inputGroupBox.Controls.Add(pointDy);
+            inputGroupBox.Controls.Add(pointDx);
+            inputGroupBox.Controls.Add(pointCy);
+            inputGroupBox.Controls.Add(pointCx);
+            inputGroupBox.Controls.Add(pointBy);
+            inputGroupBox.Controls.Add(pointBx);
+            inputGroupBox.Controls.Add(pointAy);
+            inputGroupBox.Controls.Add(pointAx);
+            inputGroupBox.Controls.Add(labelD);
+            inputGroupBox.Controls.Add(labelC);
+            inputGroupBox.Controls.Add(labelB);
+            inputGroupBox.Controls.Add(labelA);
+            inputGroupBox.Location = new System.Drawing.Point(453, 53);
+            inputGroupBox.Name = "inputGroupBox";
+            inputGroupBox.Size = new System.Drawing.Size(234, 231);
+            inputGroupBox.TabIndex = 0;
+            inputGroupBox.TabStop = false;
+            inputGroupBox.Text = "Input data";
             // 
             // pointDy
             // 
-            this.pointDy.Location = new System.Drawing.Point(155, 190);
-            this.pointDy.MaxLength = 5;
-            this.pointDy.Name = "pointDy";
-            this.pointDy.Size = new System.Drawing.Size(62, 26);
-            this.pointDy.TabIndex = 13;
-            this.pointDy.Text = "0";
-            this.pointDy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointDy.Location = new System.Drawing.Point(155, 190);
+            pointDy.MaxLength = 5;
+            pointDy.Name = "pointDy";
+            pointDy.Size = new System.Drawing.Size(62, 26);
+            pointDy.TabIndex = 13;
+            pointDy.Text = "0";
+            pointDy.TextAlign = HorizontalAlignment.Center;
             // 
             // pointDx
             // 
-            this.pointDx.Location = new System.Drawing.Point(74, 190);
-            this.pointDx.MaxLength = 5;
-            this.pointDx.Name = "pointDx";
-            this.pointDx.Size = new System.Drawing.Size(62, 26);
-            this.pointDx.TabIndex = 12;
-            this.pointDx.Text = "0";
-            this.pointDx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointDx.Location = new System.Drawing.Point(74, 190);
+            pointDx.MaxLength = 5;
+            pointDx.Name = "pointDx";
+            pointDx.Size = new System.Drawing.Size(62, 26);
+            pointDx.TabIndex = 12;
+            pointDx.Text = "0";
+            pointDx.TextAlign = HorizontalAlignment.Center;
             // 
             // pointCy
             // 
-            this.pointCy.Location = new System.Drawing.Point(155, 140);
-            this.pointCy.MaxLength = 5;
-            this.pointCy.Name = "pointCy";
-            this.pointCy.Size = new System.Drawing.Size(62, 26);
-            this.pointCy.TabIndex = 11;
-            this.pointCy.Text = "0";
-            this.pointCy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointCy.Location = new System.Drawing.Point(155, 140);
+            pointCy.MaxLength = 5;
+            pointCy.Name = "pointCy";
+            pointCy.Size = new System.Drawing.Size(62, 26);
+            pointCy.TabIndex = 11;
+            pointCy.Text = "0";
+            pointCy.TextAlign = HorizontalAlignment.Center;
             // 
             // pointCx
             // 
-            this.pointCx.Location = new System.Drawing.Point(74, 140);
-            this.pointCx.MaxLength = 5;
-            this.pointCx.Name = "pointCx";
-            this.pointCx.Size = new System.Drawing.Size(62, 26);
-            this.pointCx.TabIndex = 10;
-            this.pointCx.Text = "0";
-            this.pointCx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointCx.Location = new System.Drawing.Point(74, 140);
+            pointCx.MaxLength = 5;
+            pointCx.Name = "pointCx";
+            pointCx.Size = new System.Drawing.Size(62, 26);
+            pointCx.TabIndex = 10;
+            pointCx.Text = "0";
+            pointCx.TextAlign = HorizontalAlignment.Center;
             // 
             // pointBy
             // 
-            this.pointBy.Location = new System.Drawing.Point(155, 90);
-            this.pointBy.MaxLength = 5;
-            this.pointBy.Name = "pointBy";
-            this.pointBy.Size = new System.Drawing.Size(62, 26);
-            this.pointBy.TabIndex = 9;
-            this.pointBy.Text = "0";
-            this.pointBy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointBy.Location = new System.Drawing.Point(155, 90);
+            pointBy.MaxLength = 5;
+            pointBy.Name = "pointBy";
+            pointBy.Size = new System.Drawing.Size(62, 26);
+            pointBy.TabIndex = 9;
+            pointBy.Text = "0";
+            pointBy.TextAlign = HorizontalAlignment.Center;
             // 
             // pointBx
             // 
-            this.pointBx.Location = new System.Drawing.Point(74, 90);
-            this.pointBx.MaxLength = 5;
-            this.pointBx.Name = "pointBx";
-            this.pointBx.Size = new System.Drawing.Size(62, 26);
-            this.pointBx.TabIndex = 8;
-            this.pointBx.Text = "0";
-            this.pointBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointBx.Location = new System.Drawing.Point(74, 90);
+            pointBx.MaxLength = 5;
+            pointBx.Name = "pointBx";
+            pointBx.Size = new System.Drawing.Size(62, 26);
+            pointBx.TabIndex = 8;
+            pointBx.Text = "0";
+            pointBx.TextAlign = HorizontalAlignment.Center;
             // 
             // pointAy
             // 
-            this.pointAy.Location = new System.Drawing.Point(155, 40);
-            this.pointAy.MaxLength = 5;
-            this.pointAy.Name = "pointAy";
-            this.pointAy.Size = new System.Drawing.Size(62, 26);
-            this.pointAy.TabIndex = 7;
-            this.pointAy.Text = "0";
-            this.pointAy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointAy.Location = new System.Drawing.Point(155, 40);
+            pointAy.MaxLength = 5;
+            pointAy.Name = "pointAy";
+            pointAy.Size = new System.Drawing.Size(62, 26);
+            pointAy.TabIndex = 7;
+            pointAy.Text = "0";
+            pointAy.TextAlign = HorizontalAlignment.Center;
             // 
             // pointAx
             // 
-            this.pointAx.Location = new System.Drawing.Point(74, 40);
-            this.pointAx.MaxLength = 5;
-            this.pointAx.Name = "pointAx";
-            this.pointAx.Size = new System.Drawing.Size(62, 26);
-            this.pointAx.TabIndex = 6;
-            this.pointAx.Text = "0";
-            this.pointAx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            pointAx.Location = new System.Drawing.Point(74, 40);
+            pointAx.MaxLength = 5;
+            pointAx.Name = "pointAx";
+            pointAx.Size = new System.Drawing.Size(62, 26);
+            pointAx.TabIndex = 6;
+            pointAx.Text = "0";
+            pointAx.TextAlign = HorizontalAlignment.Center;
             // 
             // labelD
             // 
-            this.labelD.AutoSize = true;
-            this.labelD.Location = new System.Drawing.Point(14, 193);
-            this.labelD.Name = "labelD";
-            this.labelD.Size = new System.Drawing.Size(21, 20);
-            this.labelD.TabIndex = 3;
-            this.labelD.Text = "D";
+            labelD.AutoSize = true;
+            labelD.Location = new System.Drawing.Point(14, 193);
+            labelD.Name = "labelD";
+            labelD.Size = new System.Drawing.Size(21, 20);
+            labelD.TabIndex = 3;
+            labelD.Text = "D";
             // 
             // labelC
             // 
-            this.labelC.AutoSize = true;
-            this.labelC.Location = new System.Drawing.Point(15, 143);
-            this.labelC.Name = "labelC";
-            this.labelC.Size = new System.Drawing.Size(20, 20);
-            this.labelC.TabIndex = 2;
-            this.labelC.Text = "C";
+            labelC.AutoSize = true;
+            labelC.Location = new System.Drawing.Point(15, 143);
+            labelC.Name = "labelC";
+            labelC.Size = new System.Drawing.Size(20, 20);
+            labelC.TabIndex = 2;
+            labelC.Text = "C";
             // 
             // labelB
             // 
-            this.labelB.AutoSize = true;
-            this.labelB.Location = new System.Drawing.Point(15, 93);
-            this.labelB.Name = "labelB";
-            this.labelB.Size = new System.Drawing.Size(20, 20);
-            this.labelB.TabIndex = 1;
-            this.labelB.Text = "B";
+            labelB.AutoSize = true;
+            labelB.Location = new System.Drawing.Point(15, 93);
+            labelB.Name = "labelB";
+            labelB.Size = new System.Drawing.Size(20, 20);
+            labelB.TabIndex = 1;
+            labelB.Text = "B";
             // 
             // labelA
             // 
-            this.labelA.AutoSize = true;
-            this.labelA.Location = new System.Drawing.Point(15, 43);
-            this.labelA.Name = "labelA";
-            this.labelA.Size = new System.Drawing.Size(20, 20);
-            this.labelA.TabIndex = 0;
-            this.labelA.Text = "A";
+            labelA.AutoSize = true;
+            labelA.Location = new System.Drawing.Point(15, 43);
+            labelA.Name = "labelA";
+            labelA.Size = new System.Drawing.Size(20, 20);
+            labelA.TabIndex = 0;
+            labelA.Text = "A";
             // 
             // pictureBox
             // 
-            this.pictureBox.Location = new System.Drawing.Point(12, 53);
-            this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(425, 425);
-            this.pictureBox.TabIndex = 1;
-            this.pictureBox.TabStop = false;
+            pictureBox.Location = new System.Drawing.Point(12, 53);
+            pictureBox.Name = "pictureBox";
+            pictureBox.Size = new System.Drawing.Size(425, 425);
+            pictureBox.TabIndex = 1;
+            pictureBox.TabStop = false;
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(453, 414);
-            this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(107, 64);
-            this.clearButton.TabIndex = 2;
-            this.clearButton.Text = "Clear";
-            this.clearButton.UseVisualStyleBackColor = true;
-            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            clearButton.Location = new System.Drawing.Point(453, 414);
+            clearButton.Name = "clearButton";
+            clearButton.Size = new System.Drawing.Size(107, 64);
+            clearButton.TabIndex = 2;
+            clearButton.Text = "Clear";
+            clearButton.UseVisualStyleBackColor = true;
+            clearButton.Click += new System.EventHandler(clearButton_Click);
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(578, 416);
-            this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(109, 64);
-            this.startButton.TabIndex = 3;
-            this.startButton.Text = "Start";
-            this.startButton.UseVisualStyleBackColor = true;
-            this.startButton.Click += new System.EventHandler(this.startButton_Click);
+            startButton.Location = new System.Drawing.Point(578, 416);
+            startButton.Name = "startButton";
+            startButton.Size = new System.Drawing.Size(109, 64);
+            startButton.TabIndex = 3;
+            startButton.Text = "Start";
+            startButton.UseVisualStyleBackColor = true;
+            startButton.Click += new System.EventHandler(startButton_Click);
             // 
             // trackBar
             // 
-            this.trackBar.Location = new System.Drawing.Point(6, 25);
-            this.trackBar.Minimum = 1;
-            this.trackBar.Name = "trackBar";
-            this.trackBar.Size = new System.Drawing.Size(222, 69);
-            this.trackBar.TabIndex = 16;
-            this.trackBar.Value = 5;
-            this.trackBar.Scroll += new System.EventHandler(this.trackBar_Scroll);
+            trackBar.Location = new System.Drawing.Point(6, 25);
+            trackBar.Minimum = 1;
+            trackBar.Name = "trackBar";
+            trackBar.Size = new System.Drawing.Size(222, 69);
+            trackBar.TabIndex = 16;
+            trackBar.Value = 5;
+            trackBar.Scroll += new System.EventHandler(trackBar_Scroll);
             // 
             // fileToolStripMenuItem
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
-            this.fileToolStripMenuItem.Text = "File";
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] {
+            exitToolStripMenuItem});
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
+            fileToolStripMenuItem.Text = "File";
             // 
             // exitToolStripMenuItem
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(124, 30);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new System.Drawing.Size(124, 30);
+            exitToolStripMenuItem.Text = "Exit";
+            exitToolStripMenuItem.Click += new System.EventHandler(exitToolStripMenuItem_Click);
             // 
             // menuStrip
             // 
-            this.menuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
-            this.menuStrip.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(701, 33);
-            this.menuStrip.TabIndex = 5;
+            menuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
+            menuStrip.Items.AddRange(new ToolStripItem[] {
+            fileToolStripMenuItem});
+            menuStrip.Location = new System.Drawing.Point(0, 0);
+            menuStrip.Name = "menuStrip";
+            menuStrip.Size = new System.Drawing.Size(701, 33);
+            menuStrip.TabIndex = 5;
             // 
             // resultGroupBox
             // 
-            this.resultGroupBox.Controls.Add(this.resultTextBox);
-            this.resultGroupBox.Location = new System.Drawing.Point(12, 497);
-            this.resultGroupBox.Name = "resultGroupBox";
-            this.resultGroupBox.Size = new System.Drawing.Size(675, 79);
-            this.resultGroupBox.TabIndex = 6;
-            this.resultGroupBox.TabStop = false;
-            this.resultGroupBox.Text = "Result";
+            resultGroupBox.Controls.Add(resultTextBox);
+            resultGroupBox.Location = new System.Drawing.Point(12, 497);
+            resultGroupBox.Name = "resultGroupBox";
+            resultGroupBox.Size = new System.Drawing.Size(675, 79);
+            resultGroupBox.TabIndex = 6;
+            resultGroupBox.TabStop = false;
+            resultGroupBox.Text = "Result";
             // 
             // resultTextBox
             // 
-            this.resultTextBox.Enabled = false;
-            this.resultTextBox.Location = new System.Drawing.Point(15, 36);
-            this.resultTextBox.Name = "resultTextBox";
-            this.resultTextBox.Size = new System.Drawing.Size(643, 26);
-            this.resultTextBox.TabIndex = 0;
+            resultTextBox.Enabled = false;
+            resultTextBox.Location = new System.Drawing.Point(15, 36);
+            resultTextBox.Name = "resultTextBox";
+            resultTextBox.Size = new System.Drawing.Size(643, 26);
+            resultTextBox.TabIndex = 0;
             // 
             // scaleGroupBox
             // 
-            this.scaleGroupBox.Controls.Add(this.trackBar);
-            this.scaleGroupBox.Location = new System.Drawing.Point(455, 299);
-            this.scaleGroupBox.Name = "scaleGroupBox";
-            this.scaleGroupBox.Size = new System.Drawing.Size(234, 100);
-            this.scaleGroupBox.TabIndex = 17;
-            this.scaleGroupBox.TabStop = false;
-            this.scaleGroupBox.Text = "Scale";
+            scaleGroupBox.Controls.Add(trackBar);
+            scaleGroupBox.Location = new System.Drawing.Point(455, 299);
+            scaleGroupBox.Name = "scaleGroupBox";
+            scaleGroupBox.Size = new System.Drawing.Size(234, 100);
+            scaleGroupBox.TabIndex = 17;
+            scaleGroupBox.TabStop = false;
+            scaleGroupBox.Text = "Scale";
             // 
             // GUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 588);
-            this.Controls.Add(this.scaleGroupBox);
-            this.Controls.Add(this.resultGroupBox);
-            this.Controls.Add(this.menuStrip);
-            this.Controls.Add(this.startButton);
-            this.Controls.Add(this.clearButton);
-            this.Controls.Add(this.pictureBox);
-            this.Controls.Add(this.inputGroupBox);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip;
-            this.Name = "GUI";
-            this.Text = "Geometry";
-            this.inputGroupBox.ResumeLayout(false);
-            this.inputGroupBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();
-            this.menuStrip.ResumeLayout(false);
-            this.menuStrip.PerformLayout();
-            this.resultGroupBox.ResumeLayout(false);
-            this.resultGroupBox.PerformLayout();
-            this.scaleGroupBox.ResumeLayout(false);
-            this.scaleGroupBox.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(701, 588);
+            Controls.Add(scaleGroupBox);
+            Controls.Add(resultGroupBox);
+            Controls.Add(menuStrip);
+            Controls.Add(startButton);
+            Controls.Add(clearButton);
+            Controls.Add(pictureBox);
+            Controls.Add(inputGroupBox);
+            Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            MainMenuStrip = menuStrip;
+            Name = "GUI";
+            Text = "Geometry";
+            inputGroupBox.ResumeLayout(false);
+            inputGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(trackBar)).EndInit();
+            menuStrip.ResumeLayout(false);
+            menuStrip.PerformLayout();
+            resultGroupBox.ResumeLayout(false);
+            resultGroupBox.PerformLayout();
+            scaleGroupBox.ResumeLayout(false);
+            scaleGroupBox.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
